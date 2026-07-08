@@ -1,1 +1,4 @@
+test("goto homepage",async({page})=>{
 
+await page.goto("https://www.irct.com//")
+}
